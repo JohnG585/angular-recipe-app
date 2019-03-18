@@ -5,7 +5,6 @@ services:
   apptest:
     container_name: apptest
     build:
-      context: .
       dockerfile: Dockerfile
     volumes:
       - '.:/usr/src/app'
