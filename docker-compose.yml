@@ -10,4 +10,4 @@ services:
       - '.:/usr/src/app'
       - '/usr/src/app/node_modules'
     ports:
-      - '9999:9999'
+      - '9999:9998'
